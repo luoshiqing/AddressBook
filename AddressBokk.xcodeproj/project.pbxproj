@@ -12,6 +12,8 @@
 		FB738F011FAAB1B5009B9390 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB738EFF1FAAB1B5009B9390 /* Main.storyboard */; };
 		FB738F031FAAB1B5009B9390 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB738F021FAAB1B5009B9390 /* Assets.xcassets */; };
 		FB738F061FAAB1B5009B9390 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB738F041FAAB1B5009B9390 /* LaunchScreen.storyboard */; };
+		FB738F0E1FAAB24E009B9390 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB738F0D1FAAB24E009B9390 /* BookViewController.swift */; };
+		FB738F121FAAF087009B9390 /* LSQAddressBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB738F111FAAF087009B9390 /* LSQAddressBook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FB738F021FAAB1B5009B9390 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB738F051FAAB1B5009B9390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB738F071FAAB1B5009B9390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB738F0D1FAAB24E009B9390 /* BookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		FB738F111FAAF087009B9390 /* LSQAddressBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQAddressBook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				FB738EFB1FAAB1B5009B9390 /* AppDelegate.swift */,
 				FB738EFD1FAAB1B5009B9390 /* ViewController.swift */,
+				FB738F0D1FAAB24E009B9390 /* BookViewController.swift */,
+				FB738F111FAAF087009B9390 /* LSQAddressBook.swift */,
 				FB738EFF1FAAB1B5009B9390 /* Main.storyboard */,
 				FB738F021FAAB1B5009B9390 /* Assets.xcassets */,
 				FB738F041FAAB1B5009B9390 /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB738F121FAAF087009B9390 /* LSQAddressBook.swift in Sources */,
+				FB738F0E1FAAB24E009B9390 /* BookViewController.swift in Sources */,
 				FB738EFE1FAAB1B5009B9390 /* ViewController.swift in Sources */,
 				FB738EFC1FAAB1B5009B9390 /* AppDelegate.swift in Sources */,
 			);
@@ -265,6 +273,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E24W7RVK7M;
 				INFOPLIST_FILE = AddressBokk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rainfo.AddressBokk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,6 +287,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E24W7RVK7M;
 				INFOPLIST_FILE = AddressBokk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rainfo.AddressBokk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
